@@ -1,0 +1,54 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  width: 100%;
+  background-color: #333;
+  overflow: hidden;
+}
+.navbar h1 {
+  margin: 0;
+  padding: 14px 0;
+  text-align: center;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+.hero {
+  background-image: url('https://via.placeholder.com/1200x600');
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  padding: 0 50px; /* Added padding to the left and right */
+  max-width: 1200px; /* Set a maximum width */
+  margin: 0 auto; /* Center the content */
+}
+.column {
+  flex: 1;
+  padding: 10px;
+}
+.column img {
+  max-width: 100%;
+  height: auto;
+}
+.column h2 {
+  margin-bottom: 10px;
+}
+.standard-hr {
+  width: 50%;
+  margin: 10px auto;
+}
+.short-hr {
+  width: 25%;
+  margin: 10px auto;
+}
+.column.center {
+  flex: 2; /* Allow the center column to grow more */
+}
