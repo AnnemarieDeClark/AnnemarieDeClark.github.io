@@ -1,0 +1,32 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'  # Adjust to the version your project uses
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build the project
+        run: npm run build  # Replace with your build command if it's different
+
+      - name: Deploy to GitHub Pages
+        run: |
+          npm install gh-pages --save-dev
+          npm run deploy  # This assumes `npm run deploy` pushes to the `gh-pages` branch
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
