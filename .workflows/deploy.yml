@@ -1,0 +1,8 @@
+- name: Install gh-pages
+  run: npm install gh-pages --save-dev
+
+- name: Deploy to GitHub Pages
+  run: |
+    npx gh-pages -d build
+  env:
+    GH_TOKEN: ${{ secrets.GH_TOKEN }}
