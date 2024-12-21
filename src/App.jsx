@@ -75,7 +75,6 @@ function App() {
         <Navbar />
         <div style={styles.AppContainer}>
           <Routes>
-            {/* Route for homepage */}
             <Route
               path="/"
               element={
