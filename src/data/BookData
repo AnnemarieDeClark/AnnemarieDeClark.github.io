@@ -5,6 +5,12 @@ const BookData = [
         oneSen: "A suspenseful cat-and-mouse thriller about a woman who engages in a con game with her mysterious boss, this twisty tale of deception and secret identities will keep you guessing until the end.",
         author: "Ashley Elston",
         imageURL: "https://m.media-amazon.com/images/I/81cs2YZ9bVL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        title: "FIRST LIE WINS2",
+        oneSen: "A suspenseful cat-and-mouse thriller about a woman who engages in a con game with her mysterious boss, this twisty tale of deception and secret identities will keep you guessing until the end.",
+        author: "Ashley Elston",
+        imageURL: "https://m.media-amazon.com/images/I/81cs2YZ9bVL._AC_UF1000,1000_QL80_.jpg"
     }
     
 ];
