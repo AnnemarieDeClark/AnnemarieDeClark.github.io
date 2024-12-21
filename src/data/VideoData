@@ -1,0 +1,23 @@
+
+const VideoData = [
+    {
+        author: "Richard Osman",
+        title: "THE THURSDAY MURDER CLUB",
+        url: "https://www.youtube.com/watch?v=ZZuT0dcgtzc"
+    },
+    {
+        author: "Lisa Unger",
+        title: "THE NEW COUPLE IN 5B",
+        url: "https://www.youtube.com/watch?v=QNvLM6_7CeA"
+    },
+    {
+        author: "A.J. Finn",
+        title: "END OF STORY",
+        url: "https://www.youtube.com/watch?v=dJwTYOzakEU",
+    },
+
+
+
+];
+
+export {VideoData};

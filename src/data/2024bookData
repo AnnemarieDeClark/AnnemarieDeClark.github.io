@@ -1,0 +1,148 @@
+
+const booksData2024 = [
+    {
+        title: 'FIRST LIE WINS',
+        author: 'Ashley Elston',
+        oneSen: 'A suspenseful cat-and-mouse thriller about a woman who engages in a con game with her mysterious boss, this twisty tale of deception and secret identities will keep you guessing until the end.',
+        imageURL: 'https://m.media-amazon.com/images/I/81cs2YZ9bVL._AC_UF1000,1000_QL80_.jpg'
+    },
+    {
+        title: 'THE HEIRESS',
+        author: 'Rachel Hawkins',
+        oneSen: 'Family drama, greed, and murder keep the pages turning in this slow-burn domestic thriller about a toxic family from North Carolina whose dark secrets will absorb you and keep you on edge until the very last page.',
+        imageURL: 'https://m.media-amazon.com/images/I/91E+SMZk8fL.jpg'
+    },
+    {
+        title: 'THE FURY',
+        author: 'Alex Michaelides',
+        oneSen: 'A story unlike any you’ve ever heard, this atmospheric thriller will keep you guessing until its shocking conclusion.',
+        imageURL: 'https://m.media-amazon.com/images/I/81Lxz1onxEL.jpg'
+    },
+    {
+        title: 'EVERYONE ON THIS TRAIN IS A SUSPECT',
+        author: 'Benjamin Stevenson',
+        oneSen: 'A locked-room whodunit aboard the Ghan train where all the suspects are crime writers, this murder mystery is just as fun, witty, and clever as Benjamin Stevenson’s first book-EVERYONE IN MY FAMILY HAS KILLED SOMEONE.',
+        imageURL: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1692905897i/167006698.jpg' //not amazon
+    },
+    {
+        title: 'END OF STORY',
+        author: 'A.J. Finn',
+        oneSen: 'Three mysteries in one, you will lose yourself in this elegant, mesmerizing, thought-provoking tale.',
+        imageURL: 'https://m.media-amazon.com/images/I/71OfbPgtQdL.jpg'
+    },
+    {
+        title: 'LISTEN FOR THE LIE',
+        author: 'Amy Tintera',
+        oneSen: 'An edgy, darkly humorous whodunit with a true-crime storyline, this small-town murder mystery is an addictive page-turner.',
+        imageURL: 'https://m.media-amazon.com/images/I/81I7zQ+rt2L._AC_UF1000,1000_QL80_.jpg'
+    },
+    {
+        title: 'THE NEW COUPLE IN 5B',
+        author: 'Lisa Unger',
+        oneSen: 'Set in an old yet elegant New York apartment building with a dark history, this domestic thriller is a spine-tingling must read!',
+        imageURL: 'https://m.media-amazon.com/images/I/81jb7seVsGL._AC_UF1000,1000_QL80_.jpg'
+    },
+    {
+        title: 'KILL FOR ME KILL FOR YOU',
+        author: 'Steve Cavanagh',
+        oneSen: 'With all the feels of a Hitchcockian thriller, KILL FOR ME, KILL FOR YOU is a skillfully-crafted tale of revenge and what can go wrong when seeking it. Crime fiction at its best, the masterfully-plotted twists and turns will leave you breathless.',
+        imageURL: 'https://m.media-amazon.com/images/I/81jGhQT2ImL._AC_UF1000,1000_QL80_.jpg'
+    },
+    {
+        title: 'HOW TO SOLVE YOUR OWN MURDER',
+        author: 'Kristen Perrin',
+        oneSen: 'A prophecy of murder, a cast of quirky yet likable characters, and a puzzling mystery will absorb you into this charming whodunit set in a quaint English village.',
+        imageURL: 'https://m.media-amazon.com/images/I/81Ta8TDVkPL._AC_UF1000,1000_QL80_.jpg'
+    },
+    {
+        title: 'THE VACANCY IN ROOM 10',
+        author: 'Seraphina Nova Glass',
+        oneSen: 'A run-down motel in Santa Fe, a cast of quirky characters, and a suspicious death make this domestic thriller a twisty, entertaining read.',
+        imageURL: 'https://m.media-amazon.com/images/I/81hxHgcCX+L._AC_UF1000,1000_QL80_.jpg'
+    },
+    {
+        title: 'THE FELLOWSHIP OF PUZZLEMAKERS',
+        author: 'Samuel Burr',
+        oneSen: 'A beautiful story about friendship, family, and community, this delightful/charming tale takes readers on a unique journey of love, loss, joy, heartache, and puzzles. It will challenge your mind and warm your heart.',
+        imageURL: 'https://m.media-amazon.com/images/I/8143nTnr4aL._UF1000,1000_QL80_.jpg'
+    },
+    {
+        title: 'CLOSE TO DEATH',
+        author: 'Anthony Horowitz',
+        oneSen: 'The fifth book in his Hawthorne and Horowitz series, author Anthony Horowitz is once again a character in this classic whodunit that revolves around a gruesome murder in a gated community in one of the most desirable areas in London.',
+        imageURL: 'https://m.media-amazon.com/images/I/71bPTyEq+5L._AC_UF350,350_QL50_.jpg'
+    },
+    {
+        title: 'DARLING GIRLS',
+        author: 'Sally Hepworth',
+        oneSen: 'A gripping tale about the resilience of three foster sisters and the decades-old murder that binds them, this domestic thriller will leave you speechless.',
+        imageURL: 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1688420257l/127280429.jpg'
+    },
+    {
+        title: 'THE RETURN OF ELLIE BLACK',
+        author: 'Emiko Jean',
+        oneSen: 'When a missing teenager is found alive in the woods of Washington state, her miraculous reappearance leaves investigators with more questions than answers since she refuses to tell them the truth about where she’s been for the last two years.',
+        imageURL: 'https://m.media-amazon.com/images/I/71Nq2jVb78L._UF1000,1000_QL80_.jpg'
+    },
+    {
+        title: 'ONE PERFECT COUPLE',
+        author: 'Ruth Ware',
+        oneSen: 'SURVIVOR meets LORD OF THE FLIES in this thrilling tale of survival and control about five couples fighting for their lives on a deserted Indonesian island while a killer lurks among them.',
+        imageURL: 'https://m.media-amazon.com/images/I/81NTa2EqbHL.jpg'
+    },
+    {
+        title: 'THE QUEEN OF POISONS',
+        author: 'Robert Thorogood',
+        oneSen: 'The third book in Robert Thorogood’s The Marlow Murder Club cozy mystery series, Judith, Suzie, and Becks investigate the murder of the mayor of Marlow. Having died suddenly during a town council meeting with traces of aconite—the queen of poisons—in his coffee cup, the trio must work together to answer who killed the mayor, why, and how the killer got the poison into his coffee.',
+        imageURL: 'https://m.media-amazon.com/images/I/71S5uRmTuXL._UF1000,1000_QL80_.jpg'
+    },
+    {
+        title: 'A TALENT FOR MURDER',
+        author: 'Peter Swanson',
+        oneSen: 'When a newlywed librarian suspects her husband might be a murderer, she reaches out to her old friend from graduate school who uncovers something far more perplexing and wicked than they initially thought.',
+        imageURL: 'https://m.media-amazon.com/images/I/81ZK0rL1YTL.jpg'
+    },
+    {
+        title: 'THE MIDNIGHT FEAST',
+        author: 'Lucy Foley',
+        oneSen: 'Set in an ancient forest with pagan folklore vibes, a celebration of the summer solstice during the opening weekend of a luxury resort is plagued by murder in this atmospheric thriller that will absorb you until its astonishing conclusion.',
+        imageURL: 'https://m.media-amazon.com/images/I/81m973Wyr6L._AC_UF1000,1000_QL80_.jpg'
+    },
+    {
+        title: 'LOVE LETTERS TO A SERIAL KILLER',
+        author: 'Tasha Coryell',
+        oneSen: 'An aimless young woman starts writing to an accused serial killer while he awaits trial and then, once he’s acquitted, decides to move in with him and take the investigation into her own hands.',
+        imageURL: 'https://m.media-amazon.com/images/I/71w4ndeD5rL.jpg'
+    },
+    {
+        title: 'LOOK IN THE MIRROR',
+        author: 'Catherine Steadman',
+        oneSen: 'After discovering she has inherited a state-of-the-art property in the British Virgin Islands, Nina is the proud owner of the vacation home of her dreams until it becomes the vacation home of her nightmares in this twisty psychological thriller.',
+        imageURL: 'https://m.media-amazon.com/images/I/819GoMKYICL._AC_UF1000,1000_QL80_.jpg'
+    },
+    {
+        title: 'WE SOLVE MURDERS',
+        author: 'Richard Osman',
+        oneSen: 'Filled with an eclectic mix of witty and charming characters, WE SOLVE MURDERS is a jet-setting, action-packed, cozy mystery, international thrill ride adventure that will keep you guessing until the very end.',
+        imageURL: 'https://m.media-amazon.com/images/I/71C-g7glLoL._AC_UF1000,1000_QL80_.jpg'
+    },
+    {
+        title: 'THE HITCHCOCK HOTEL',
+        author: 'Stephanie Wrobel',
+        oneSen: 'Not just a murder mystery, but also a fiendishly creepy suspense thriller set in a Hitchcock-themed hotel, this jaw-dropping tale will keep you on the edge of your seat from the first page until the last.',
+        imageURL: 'https://m.media-amazon.com/images/I/81sPR3fepzL.jpg'
+    },
+    {
+        title: 'THE TREASURE HUNTERS CLUB',
+        author: 'Tom Ryan',
+        oneSen: 'A murder mystery filled with pirate lore, secret societies, lost treasure, dark family secrets, unforgivable grudges, and well-crafted lies, this thrilling adventure set in Nova Scotia is a twisty, suspenseful read that will surprise you along the way and keep you guessing until the very last page.',
+        imageURL: 'https://m.media-amazon.com/images/I/81yfqv2NNiL._AC_UF1000,1000_QL80_.jpg'
+    },
+    {
+        title: 'THE BLUE HOUR',
+        author: 'Paula Hawkins',
+        oneSen: 'When a forensic anthropologist makes a startling claim about an art piece in a London art gallery, questions about the artist and her reclusive life come to light in this dark and unsettling atmospheric thriller set on an eerie island off the coast of Scotland.',
+        imageURL: 'https://m.media-amazon.com/images/I/71JAlG14n2L.jpg'
+    },
+];
+export { booksData2024 };
