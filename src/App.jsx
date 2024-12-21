@@ -71,7 +71,7 @@ function App() {
 
   return (
     <div style={styles.mainContainer}>
-      <Router>
+      <Router basename='/crimereads'>
         <Navbar />
         <div style={styles.AppContainer}>
           <Routes>
