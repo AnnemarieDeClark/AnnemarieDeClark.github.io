@@ -74,7 +74,7 @@ const Navbar = () => {
       <div style={styles.topNavbar}>MYWEBSITE</div>
       <nav style={styles.mainNavbar}>
         <ul style={styles.ulStyle}>
-          <li style={styles.liStyle}><a href="2024Books" style={styles.linkStyle}>My 24 Of 2024</a></li>
+          <li style={styles.liStyle}><a href="#2024Books" style={styles.linkStyle}>My 24 Of 2024</a></li>
           <li style={styles.liStyle}><a href="/" style={styles.linkStyle}>Home</a></li>
           <li style={styles.liStyle}><a href="#link3" style={styles.linkStyle}>Link 3</a></li>
         </ul>

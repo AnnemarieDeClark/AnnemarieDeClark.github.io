@@ -101,7 +101,7 @@ function App() {
             />
             {/* Route for 2024 Books page */}
             <Route
-              path="/#/2024Books"
+              path="/2024Books"
               element={
                 <div style={{ paddingTop: '140px' }}>
                   <Books2024Page books2024={books2024} type="books" />
