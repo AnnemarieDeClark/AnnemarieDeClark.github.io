@@ -16,7 +16,7 @@ function App() {
 
   const styles = {
     AppContainer: {
-      backgroundColor: '#d9d9da',
+      backgroundColor: '#444',
       minHeight: '100vh',
       margin: 0, 
       padding: 0, 
