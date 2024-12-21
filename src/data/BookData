@@ -6,9 +6,7 @@ const BookData = [
         author: "Ashley Elston",
         imageURL: "https://m.media-amazon.com/images/I/81cs2YZ9bVL._AC_UF1000,1000_QL80_.jpg"
     }
-
-
-
+    
 ];
 
 export {BookData};
